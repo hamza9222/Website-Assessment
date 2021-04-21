@@ -1,0 +1,106 @@
+﻿body
+{
+    background-color:black;
+    font-size:20px;
+
+    background-color: #ccc;
+    margin: 0;
+    padding: 0;
+}
+
+#Page{
+    position: relative;
+    width: 1903px;
+    margin: 0 auto;
+    background-color:steelblue;
+}
+
+#Header{
+    height: 80px;
+}
+
+#Header h1{
+    margin: 0;
+    padding: 25px 25px;
+    display: inline-block;
+    position: relative;
+    top: -35px;
+}
+
+    #Header h2 {
+        position: absolute;
+        right: 20px;
+        top: 10px;
+    }
+
+#Menu{
+    position:sticky;
+    top:0px;
+    text-align:center;
+    background-color:black;
+    
+}
+
+#Menu a{
+    padding: 5px 5px;
+}
+
+#MainMenu{
+    padding: 15px;
+    font-size: 1.5em;
+    background-color: black;
+}
+
+#SubMenu{
+    padding: 5px;
+    border-top: solid 1px;
+    font-size: 1.2em;
+}
+
+#Menu a:hover{
+    background-color: #999;
+    color: #EEE;
+}
+
+.MenuCurrentPage{
+    background-color: black;
+    color: black;
+}
+
+#Content{
+    margin: 10px;
+    min-height: 1000px;
+    padding-bottom: 50px;
+}
+
+#Content h2{
+    border-bottom: solid 1px;
+}
+.bold{
+    font-weight: bold;
+}
+
+#Footer{
+    width: 1903px;
+    background-color: black;
+    position:fixed;
+    bottom: 0px;
+    text-align: center;
+}
+
+#Col {
+    color: ivory;
+}
+
+#Background1{
+    <!-- background-image: url("Images/matrix.jpg"); -->
+}
+
+a:link {
+    color:blue;
+}
+
+a:visited
+{
+    color:black;
+}
